@@ -2,7 +2,7 @@
 
     .text-zone {
         position: absolute;
-        left:10%;
+        left:13%;
         top: 50%;
         transform: translateY(-50%);
         width: 40%;
@@ -10,8 +10,10 @@
      }
 
     h1 {
+        color: #fff;
+        font-size: 53px;
         img{
-        width: 32px;
+            width: 32px;
         }
     }
 }

@@ -1,7 +1,7 @@
 import './index.scss';
 import { Link, NavLink } from 'react-router-dom';
 import LogoS from '../../images/logo-s.png';
-import LogoSubtitle from '../../images/logo_sub.png';
+// import LogoSubtitle from '../../images/logo_sub.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
@@ -11,7 +11,6 @@ const Sidebar = () => {
     <div className='nav-bar'>
         <Link className='logo' to='/'>
             <img src={LogoS} alt="logo" />
-            <img className="sub-logo" src={LogoSubtitle} alt="logoSub" />
         </Link>
 
         <nav>
@@ -46,7 +45,7 @@ const Sidebar = () => {
                 <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://github.com/"
+                href="https://github.com/Diogo-Merelles"
                 >       
                 <FontAwesomeIcon icon={faGithub} color= "#4d4d4e" />
                 </a>
